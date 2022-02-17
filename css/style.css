@@ -1,0 +1,76 @@
+/* common css  */
+img{
+   width: 100%;
+   min-height: 770px;
+}
+label{
+    font-size: 18px;
+}
+/* calc background */
+.costing-area{
+    background-color: #F8F8F8;
+}
+
+/* input and label style  */
+.input-field{
+    background-color: #DCDCDC;
+    border: none;
+    
+}
+.label-food{
+margin-left: 17px;
+}
+
+.label-rent{
+    margin-left: 20px;
+}
+
+.label-cloth{
+    margin-left: 15px;
+}
+/* error message style  */
+#income-error{
+    background-color: rgb(185, 158, 37);
+    color: rgb(175, 49, 49);
+    font-size: 20px;
+    display: none;
+}
+#string-error{
+    background-color: rgb(185, 158, 37);
+    color: rgb(175, 49, 49);
+    font-size: 20px;
+    display: none;
+    margin-top: 10px;
+}
+#balance-error{
+    background-color: rgb(185, 158, 37);
+    color: rgb(175, 49, 49);
+    font-size: 20px;
+    display: none;
+    margin-top: 10px;
+}
+#expense-error{
+    background-color: rgb(185, 158, 37);
+    color: rgb(175, 49, 49);
+    font-size: 20px;
+    display: none;
+    
+}
+#negative-error{
+    background-color: rgb(185, 158, 37);
+    color: rgb(175, 49, 49);
+    font-size: 20px;
+    display: none;
+}
+
+
+/* media  */
+@media only screen and (max-width: 576px){
+
+   
+    #save-btn{
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 20%;
+    }
+}
